@@ -100,3 +100,22 @@ footer {
   padding: 24px 0 40px;
   color: #6b7280;
 }
+
+.video-table a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+.video-table a:hover {
+  text-decoration: underline;
+}
+
+.video-thumb {
+  width: 60px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+.video-table td {
+  vertical-align: middle;
+}
