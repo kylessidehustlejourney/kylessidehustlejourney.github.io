@@ -1,12 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="90" viewBox="0 0 300 90">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="90" viewBox="0 0 300 90" role="img" aria-labelledby="title desc">
+  <title id="title">Kyle's Side Hustle Journey Logo</title>
+  <desc id="desc">A blue and navy logo with a growth chart, upward arrow, and text reading Kyle's Side Hustle Journey.</desc>
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1d4ed8"/>
-      <stop offset="100%" stop-color="#2563eb"/>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0b3fb8"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
     </linearGradient>
   </defs>
-  <rect width="300" height="90" rx="18" fill="url(#grad)"/>
-  <text x="150" y="50" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#ffffff">
-    Kyle's Side Hustle Journey
-  </text>
+
+  <!-- Icon -->
+  <g transform="translate(8 12)">
+    <circle cx="34" cy="34" r="31" fill="none" stroke="url(#blueGrad)" stroke-width="5"/>
+    <path d="M7 57 C18 43, 29 37, 39 32 C48 27, 55 20, 62 10" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M9 59 C18 47, 30 39, 42 35 C51 31, 58 25, 64 17 L64 61 L8 61 Z" fill="url(#navyGrad)" opacity="0.98"/>
+    <path d="M14 49 C27 42, 42 33, 59 14" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M51 13 L65 8 L62 23 Z" fill="#2563eb"/>
+    <rect x="18" y="34" width="7" height="15" rx="1.5" fill="#2563eb"/>
+    <rect x="30" y="25" width="7" height="24" rx="1.5" fill="#2563eb"/>
+    <rect x="42" y="17" width="7" height="32" rx="1.5" fill="#2563eb"/>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(82 18)">
+    <text x="0" y="21" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#0f172a">Kyle's</text>
+    <text x="0" y="48" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#2563eb">Side Hustle</text>
+    <line x1="0" y1="61" x2="38" y2="61" stroke="#2563eb" stroke-width="3"/>
+    <text x="48" y="66" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="8" fill="#0f172a">JOURNEY</text>
+    <line x1="198" y1="61" x2="212" y2="61" stroke="#2563eb" stroke-width="3"/>
+  </g>
 </svg>
